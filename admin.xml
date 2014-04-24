@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<admins>
+	<admin id_admin="1">
+		<nombre>Carlos Marchant</nombre>
+		<edad>22</edad>
+	</admin>
+	<admin id_admin="2">
+		<nombre>Mayastation</nombre>
+		<edad>20</edad>
+	</admin>
+	<admin id_admin="3">
+		<nombre>Niko Tesla</nombre>
+		<edad>35</edad>
+	</admin>
+	<admin id_admin="4">
+		<nombre>Nico Taringa</nombre>
+		<edad>99</edad>
+	</admin>
+	<admin id_admin="5">
+		<nombre>Camarox</nombre>
+		<edad>777</edad>
+	</admin>
+	<admin id_admin="6">
+		<nombre>rafa</nombre>
+		<edad>20</edad>
+	</admin>
+	<admin id_admin="7">
+		<nombre>Jorgeqlo</nombre>
+		<edad>3</edad>
+	</admin>
+</admins>
