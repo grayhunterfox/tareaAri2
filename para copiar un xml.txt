@@ -1,0 +1,24 @@
+what if you we need to modify an existing XML file, save the changes and then copy it as another file name? For this purpose, we can use the XmlDocument and the Save method. 
+
+Note: Don't forget to add the following using statement: 
+
+using System.Xml; 
+
+The following code method loads an XML document and then saves it back as a new document. Before saving back the document, you can modify the document based on your requirements. The code also checks if the new file name already exists and deletes it if the file is already there. 
+
+string oldXmlFile = @"C:\Books\Students.xml";
+string newXmlfile = @"C:\Books\NewStudents.xml";
+CopyXmlDocument(oldXmlFile, newXmlfile);
+
+private static void CopyXmlDocument(string oldfile, string newfile)
+{
+    XmlDocument document = new XmlDocument();
+    document.Load(oldfile);
+
+    // Modify XML file using XmlDocument here
+
+    Console.WriteLine(document.OuterXml);
+    if (File.Exists(newfile))
+        File.Delete(newfile);
+    document.Save(newfile);
+}
