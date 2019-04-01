@@ -1,7 +1,4 @@
-Ahaha~ tarea qla
-=========
-
-ok first thing first nigguh, para leer los admins se usa algo del tipo:
+Para leer los admins se usa algo del tipo:
 
 
 
